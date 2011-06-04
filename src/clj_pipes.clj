@@ -4,8 +4,7 @@
 ;License: EPL 1.0 -> http://www.eclipse.org/legal/epl-v10.html
 
 (ns clj-pipes
-  #^{:author "Eduardo Emilio Julián Pereyra",
-     :doc "Wrapper for the TinkerPop Pipes API for Graph DBMSs. It supports version 0.5 of the Pipes API."}
+  "Wrapper for the TinkerPop Pipes API for Graph DBMSs. It supports version 0.5 of the Pipes API."
   (:import (com.tinkerpop.pipes AbstractPipe Pipeline IdentityPipe
              MultiIterator EmptyIterator ExpandableIterator HistoryIterator SingleIterator)
     (com.tinkerpop.pipes.pgm LabelFilterPipe LabelPipe
